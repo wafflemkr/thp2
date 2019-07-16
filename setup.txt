@@ -15,10 +15,12 @@ Once Your Kali VM is Up and Running
 	○	service postgresql start
 ●	Make postgresql database start on boot
 	○	update-rc.d postgresql enable
+●	Verify postgrest db is up and running.  
+	○	ant -as
+	Output should show port 5432 as listening
 ●	Start and stop the Metasploit service (this will setup the database.yml file for you)
-	○	service metasploit start
-	○	service metasploit stop
-●	Install gedit
+	○	msfdb init
+●	Install gedit if needed
 	○	apt-get install gedit
 ●	Change the hostname - Many network admins look for systems named Kali in logs like DHCP. It is best to follow the naming standard used by the company you are testing
 	○	gedit /etc/hostname
