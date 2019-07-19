@@ -53,7 +53,7 @@ HTTPScreenShot
 	○	tar xvf phantomjs-1.9.8-linux-i686.tar
 	○	cp phantomjs-1.9.8-linux-i686/bin/phantomjs /usr/bin/
 
-SMBExec
+SMBExec  (since removed from github)
 ●	A rapid psexec style attack with samba tools.
 ●	git clone https://github.com/pentestgeek/smbexec.git /opt/smbexec
 ●	cd /opt/smbexec && ./install.sh
